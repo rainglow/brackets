@@ -1,0 +1,15 @@
+{
+    "name": "yule-contrast-rainglow",
+    "title": "Yule Contrast (Rainglow)",
+    "description": "Part of Rainglow, a collection of 320+ themes for various editors.",
+    "homepage": "https://rainglow.io",
+    "version": "1.5.0",
+    "author": "Dayle Rees <me@daylerees.com> (https://daylerees.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "rainglow", "dayle", "rees"]
+}

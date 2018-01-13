@@ -1,0 +1,140 @@
+/**
+Theme: Patriot
+Copyright (c) Dayle Rees.
+
+Part of the Rainglow theme collection.
+http://rainglow.io
+*/
+
+.CodeMirror {
+    line-height:1.6em;
+}
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: #2d3133;
+    color: #cad9e3;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #34393b;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #151718;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(0, 0, 0, 0.1);
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #51585c;
+    }
+}
+
+.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #3790de;}
+.cm-number, .cm-plus {color: #2e6fd9;}
+.cm-builtin, .cm-def, .cm-property, .cm-attribute {color: #2e6fd9;}
+.cm-meta, .cm-bracket {color: #cad9e3;}
+.cm-variable, .cm-variable-2, .cm-variable-3 {color: #cad9e3;}
+.cm-comment {color: #515e66;}
+.cm-minus {color: #ffffff;}
+.cm-header {color: #bbbcc4;}
+.cm-link {color: #de333c; text-decoration: none;}
+.cm-rangeinfo {color: #bbbcc4;}
+.cm-operator, .cm-keyword, .cm-qualifier, .cm-tag, .cm-quote {color: #de333c;}
+.cm-error {color: #e61f44;}
+
+.CodeMirror-searching {
+    background-color: #ffe48b;
+    &.searching-current-match {
+        background-color: #9b8439;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #f8f8f0 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: #212425;
+    border-right: 1px solid #404649;
+}
+
+.CodeMirror-linenumber {
+    color: #757f84;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #de333c22;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #de333c55;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: #2e6fd955;
+    color: #cad9e3 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #f8f8f0;
+}
+
+.CodeMirror {
+    .CodeMirror {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-gutters {
+        background: transparent;
+        border-right: none;
+    }
+
+    .CodeMirror .CodeMirror-activeline-background {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+        background: transparent;
+        color: #454b4e;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            background: rgba(0, 0, 0, 0.1);
+            color: #5d6569;
+        }
+    }
+}
+
+.CodeMirror-foldgutter-open:after {
+    
+    color: #5d6569;
+}
+.CodeMirror-foldgutter-folded:after {
+    color: #5d6569;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: #8f989d;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: #697277;
+    color: #697277;
+    background-color: #393e41;
+}
+
+.image-view,
+.not-editor {
+    background-color: #2d3133;
+}
+
+.view-pane .image-view {
+    color: #cad9e3;
+}
